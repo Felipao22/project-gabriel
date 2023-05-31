@@ -67,14 +67,19 @@ export const NavBar = () => {
       name: "contacto",
       link: "/contacto"
     },
+    {
+      id: 6,
+      name: "reservar",
+      link: "/reservar"
+    },
   ];
 
   
 
   return (
-    <div className="flex justify-between items-center w-full h-20  px-4 text-white bg-black fixed">
+    <div className="flex justify-between items-center w-full h-20  px-4 text-white bg-dark static">
       <div>
-        <a className="text-5xl font-signature ml-2" href="/">Gabriel Furik</a>
+        <a className="text-5xl font-signature ml-2" href="/">GF</a>
         {/* <h3 className="text-5xl font-signature ml-2">Gabriel Furik</h3> */}
       </div>
 
@@ -99,7 +104,7 @@ export const NavBar = () => {
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-dark text-gray-500">
           {links.map(({ id, link, name }) => (
             <li
               key={id}

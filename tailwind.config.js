@@ -5,7 +5,22 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    backgroundColor: theme => ({
+             ...theme('colors'),
+             'primary': '#A78BFA',
+             'secondary': '##210576',
+             'neutral': '#EFE7E7',
+             'dark': '#1F1F1F'
+            }),
+            extend: {
+              gradientColorStops: {
+                'custom-gradient': {
+                  '0': 'rgba(38, 30, 111, 1)',
+                  '35': 'rgba(88, 18, 94, 1)',
+                  '51': 'rgba(15, 15, 15, 1)',
+                },
+              },
+            },
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
@@ -23,5 +38,7 @@ export default {
       // => @media (min-width: 1536px) { ... }
     }
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }
