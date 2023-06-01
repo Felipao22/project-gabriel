@@ -19,7 +19,7 @@ export const Home = () => {
 
         <div className="pt-8">
           <Link
-            to="portfolio"
+            to="descubre"
             smooth
             duration={500}
             className="group rounded-full leading-4 text-center text-white bg-violet-800 p-4 uppercase font-bold cursor-pointer"
@@ -28,7 +28,7 @@ export const Home = () => {
           </Link>
         </div>
       </header>
-      <div className="">
+      <div>
         <img
           src={example}
           alt="My profile"
@@ -37,10 +37,10 @@ export const Home = () => {
       </div>
     </div>
   </main>
-  <main className="h-screen w-full bg-neutral">
+  <main name="descubre" className="h-screen w-full bg-neutral">
          <div className="max-w-screen-lg mx-auto flex justify-center items-center h-full px-2 md:flex-row">
            <header className="flex flex-col justify-center h-full pt-2">
-             <h3 className=" font-bold text-black">
+             <h3 className="text-2xl mb-2 md:text-5xl md:mr-40 font-bold text-black text-center">
                Tú nuevo Terapueta Emocional de Biodescodificación
              </h3>
            </header>

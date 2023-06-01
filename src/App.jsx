@@ -8,11 +8,13 @@ import { Opiniones } from "./components/Opiniones";
 import { SobreMi } from "./components/SobreMi";
 import { Contacto } from "./components/Contacto";
 import { Reservar } from "./components/Reservar";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
       <NavBar />
+      <ScrollToTop />
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route exact path="/terapias" element={<Terapias />}></Route>
