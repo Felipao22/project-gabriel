@@ -34,6 +34,10 @@ export const Footer = () => {
       <a><FacebookLogo /></a>
     </div>
   </div>
+  <div className="text-white flex flex-row">
+  Copyright © 2023 - 
+    <a href="https://www.linkedin.com/in/felipeaviani/" target="_blank" rel="noreferrer" className=" link text-white decoration-solid decoration-white">Felipe Aviani</a>
+  </div>
     </footer>
   );
 };
