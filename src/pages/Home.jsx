@@ -2,6 +2,7 @@ import example from "../assets/example.jpg";
 import { Link } from "react-scroll";
 import { Terapeuta } from "../components/Terapeuta";
 import { Section } from "../components/Section";
+import { SectionTwo } from "../components/SectionTwo";
 
 export const Home = () => {
   return (
@@ -41,6 +42,7 @@ export const Home = () => {
       </main>
       <Terapeuta />
      <Section />
+     <SectionTwo />
     </>
   );
 };
