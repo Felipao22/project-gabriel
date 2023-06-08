@@ -21,7 +21,7 @@ export const Section = () => {
           </small>
         </header>
       </div>
-      <div className="flex flex-wrap mx-10 md:mx-20 justify-start md:justify-center -mt-40 ">
+      <div className="flex flex-wrap mx-10 md:mx-20 justify-start md:justify-center !-mt-40 ">
         <ul>
           <li>
             <div className="flex items-center gap-3 mb-4">

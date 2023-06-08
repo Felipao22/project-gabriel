@@ -1,5 +1,6 @@
 import {FacebookLogo, LogoIcon, TwitterLogo, YoutubeLogo} from "./Icons";
 export const Footer = () => {
+  const BASE_URL = import.meta.env.PROD ? 'https://project-gabriel.vercel.app/' : 'http://localhost:5173/'
   return (
     <footer className="footer p-10 bg-dark text-base-content">
       <div>
@@ -12,12 +13,12 @@ export const Footer = () => {
       </div>
       <div className="text-white">
         <span className="footer-title">navegar</span>
-        <a className="link link-hover" href="/">Inicio</a>
-        <a className="link link-hover" href="/terapias">Terapias</a>
-        <a className="link link-hover" href="/opiniones">Opiniones</a>
-        <a className="link link-hover" href="/sobre-mi">Sobre Mí</a>
-        <a className="link link-hover" href="/contacto">Contacto</a>
-        <a className="link link-hover" href="/reservar">Reservar</a>
+        <a className="link link-hover" href={`${BASE_URL}`}>Inicio</a>
+        <a className="link link-hover" href={`${BASE_URL}terapias`}>Terapias</a>
+        <a className="link link-hover" href={`${BASE_URL}opiniones`}>Opiniones</a>
+        <a className="link link-hover" href={`${BASE_URL}sobre-mi`}>Sobre Mí</a>
+        <a className="link link-hover" href={`${BASE_URL}contacto`}>Contacto</a>
+        <a className="link link-hover" href={`${BASE_URL}reservar`}>Reservar</a>
       </div>
       <div className="text-white">
         <span className="footer-title">Company</span>
