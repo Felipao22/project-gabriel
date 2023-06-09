@@ -1,4 +1,5 @@
 import {FacebookLogo, LogoIcon, TwitterLogo, YoutubeLogo} from "./Icons";
+import { Link } from "react-router-dom";
 export const Footer = () => {
   const BASE_URL = import.meta.env.PROD ? 'https://project-gabriel.vercel.app/' : 'http://localhost:5173/'
   return (
@@ -13,12 +14,12 @@ export const Footer = () => {
       </div>
       <div className="text-white">
         <span className="footer-title">navegar</span>
-        <a className="link link-hover" href={`${BASE_URL}`}>Inicio</a>
-        <a className="link link-hover" href={`${BASE_URL}terapias`}>Terapias</a>
-        <a className="link link-hover" href={`${BASE_URL}opiniones`}>Opiniones</a>
-        <a className="link link-hover" href={`${BASE_URL}sobre-mi`}>Sobre Mí</a>
-        <a className="link link-hover" href={`${BASE_URL}contacto`}>Contacto</a>
-        <a className="link link-hover" href={`${BASE_URL}reservar`}>Reservar</a>
+        <Link to="/" className="link link-hover" >Inicio</Link>
+        <Link to="/terapias" className="link link-hover" >Terapias</Link>
+        <Link to="/opiniones" className="link link-hover" >Opiniones</Link>
+        <Link to="/sobre-mi" className="link link-hover" >Sobre Mí</Link>
+        <Link to="/contacto" className="link link-hover" >Contacto</Link>
+        <Link to="/reservar" className="link link-hover" >Reservar</Link>
       </div>
       <div className="text-white">
         <span className="footer-title">Company</span>

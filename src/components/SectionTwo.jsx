@@ -1,7 +1,7 @@
+import { Link } from "react-router-dom";
 import example from "../assets/example.jpg";
 
 export const SectionTwo = () => {
-  const BASE_URL = import.meta.env.PROD ? 'https://project-gabriel.vercel.app/' : 'http://localhost:5173/'
   return (
     <section className="min-h-screen w-full bg-dark px-2 pb-40 pt-32">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center h-full px-2">
@@ -47,7 +47,7 @@ export const SectionTwo = () => {
               "https://www.ngenespanol.com/wp-content/uploads/2023/03/que-es-una-galaxia-y-como-se-forman-estas-colonias-espaciales.jpg"
             }
             alt="My profile"
-            className="rounded-2xl mx-auto h-auto w-auto md:w-2/3 md:my-20 mt-20 mb-20 md:ml-60 object-cover"
+            className="rounded-2xl mx-auto h-auto w-auto md:w-2/3 md:my-20 mt-20 mb-20  object-cover"
           />
         </div>
       </div>
@@ -63,12 +63,12 @@ export const SectionTwo = () => {
             subconsciente.
           </p>
           <div className="pt-8 flex justify-center">
-            <a
-              href={`${BASE_URL}sobre-mi`}
+            <Link
+              to="/sobre-mi"
               className="group rounded-full leading-4 text-center text-white bg-violet-800 p-4 uppercase font-bold cursor-pointer hover:bg-violet-500"
             >
               conoce a Gabi
-            </a>
+            </Link>
           </div>
         </header>
       </div>
