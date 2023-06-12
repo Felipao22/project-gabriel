@@ -13,7 +13,7 @@ export const Home = () => {
       >
         <div className="max-w-screen-lg mx-auto flex flex-col items-center h-full px-2 md:flex-row">
           <header className="flex flex-col justify-center h-full px-4">
-            <h6 className="text-2xl mb-2 md:text-5xl md:mr-40 font-bold text-white">
+            <h6 className="text-2xl mb-2 md:text-5xl md:mr-40 font-bold text-slate-100">
               Terapias de autoconocimiento
             </h6>
             <span className="text-3xl md:text-6xl font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
@@ -25,7 +25,7 @@ export const Home = () => {
                 to="descubre"
                 smooth
                 duration={500}
-                className="group rounded-full leading-4 text-center text-white bg-violet-800 p-4 uppercase font-bold cursor-pointer hover:bg-violet-500"
+                className="group rounded-full leading-4 text-center text-slate-100 bg-violet-800 p-4 uppercase font-bold cursor-pointer hover:bg-violet-500"
               >
                 Descubre a tu terapeuta
               </Link>

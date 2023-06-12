@@ -1,9 +1,22 @@
 import {FacebookLogo, LogoIcon, TwitterLogo, YoutubeLogo} from "./Icons";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
+
 export const Footer = () => {
-  const BASE_URL = import.meta.env.PROD ? 'https://project-gabriel.vercel.app/' : 'http://localhost:5173/'
   return (
     <footer className="footer p-10 bg-dark text-base-content">
+      <ScrollToTop />
       <div>
         <LogoIcon />
         <p className="text-white">
