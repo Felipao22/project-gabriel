@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { Terapeuta } from "../components/Terapeuta";
 import { Section } from "../components/Section";
 import { SectionTwo } from "../components/SectionTwo";
+import { Testimonios } from "../components/Testimonios";
 
 export const Home = () => {
   return (
@@ -43,6 +44,7 @@ export const Home = () => {
       <Terapeuta />
      <Section />
      <SectionTwo />
+    <Testimonios />
     </>
   );
 };

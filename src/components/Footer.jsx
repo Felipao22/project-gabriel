@@ -1,4 +1,4 @@
-import {FacebookLogo, LogoIcon, TwitterLogo, YoutubeLogo} from "./Icons";
+import {FacebookLogo, InstagramLogo, LogoIcon, TwitterLogo, YoutubeLogo} from "./Icons";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -43,10 +43,10 @@ export const Footer = () => {
       </div>
       <div className="text-white">
     <span className="footer-title">Redes Sociales</span> 
-    <div className="grid grid-flow-col gap-4">
-      <a><TwitterLogo /></a>
-      <a><YoutubeLogo /></a> 
-      <a><FacebookLogo /></a>
+    <div className="grid grid-flow-col gap-4 cursor-pointer">
+      <a href="https://www.instagram.com/gabrielfurik/" target="_blank" rel="noreferrer" className="object-contain transition-all hover:scale-105"><InstagramLogo /></a>
+      <a className="object-contain transition-all hover:scale-105"><YoutubeLogo /></a> 
+      <a className="object-contain transition-all hover:scale-105"><FacebookLogo /></a>
     </div>
   </div>
   <div className="text-white flex flex-row">

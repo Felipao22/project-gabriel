@@ -13,31 +13,186 @@ export const TwitterLogo = () => {
   );
 };
 
-export const YoutubeLogo = () => {
+export const YoutubeLogo = (props) => {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      className="fill-current"
-    >
-      <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-    </svg>
+    xmlns="http://www.w3.org/2000/svg"
+    xmlSpace="preserve"
+    width={24}
+    height={24}
+    viewBox="0 0 461.001 461.001"
+    {...props}
+  >
+    <path
+      d="M365.257 67.393H95.744C42.866 67.393 0 110.259 0 163.137v134.728c0 52.878 42.866 95.744 95.744 95.744h269.513c52.878 0 95.744-42.866 95.744-95.744V163.137c0-52.878-42.866-95.744-95.744-95.744zm-64.751 169.663-126.06 60.123c-3.359 1.602-7.239-.847-7.239-4.568V168.607c0-3.774 3.982-6.22 7.348-4.514l126.06 63.881c3.748 1.899 3.683 7.274-.109 9.082z"
+      style={{
+        fill: "#f61c0d",
+      }}
+    />
+  </svg>
   );
 };
 
 export const FacebookLogo = () => {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      className="fill-current"
-    >
-      <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width={24} height={24}>
+      <linearGradient
+        id="a"
+        x1="-277.375"
+        x2="-277.375"
+        y1="406.602"
+        y2="407.573"
+        gradientTransform="matrix(40 0 0 -39.7778 11115.001 16212.334)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stopColor="#0062e0"></stop>
+        <stop offset="1" stopColor="#19afff"></stop>
+      </linearGradient>
+      <path
+        fill="#0062e0"
+        d="M16.7 39.8C7.2 38.1 0 29.9 0 20 0 9 9 0 20 0s20 9 20 20c0 9.9-7.2 18.1-16.7 19.8l-1.1-.9h-4.4l-1.1.9z"
+      ></path>
+      <path
+        fill="#fff"
+        d="M27.8 25.6l.9-5.6h-5.3v-3.9c0-1.6.6-2.8 3-2.8H29V8.2c-1.4-.2-3-.4-4.4-.4-4.6 0-7.8 2.8-7.8 7.8V20h-5v5.6h5v14.1c1.1.2 2.2.3 3.3.3 1.1 0 2.2-.1 3.3-.3V25.6h4.4z"
+      ></path>
     </svg>
+  );
+};
+
+export const InstagramLogo = (props) => {
+  return (
+    <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlSpace="preserve"
+    width={24}
+    height={24}
+    viewBox="0 0 551.034 551.034"
+    {...props}
+  >
+    <linearGradient
+      id="a"
+      x1={275.517}
+      x2={275.517}
+      y1={4.571}
+      y2={549.72}
+      gradientTransform="matrix(1 0 0 -1 0 554)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop
+        offset={0}
+        style={{
+          stopColor: "#e09b3d",
+        }}
+      />
+      <stop
+        offset={0.3}
+        style={{
+          stopColor: "#c74c4d",
+        }}
+      />
+      <stop
+        offset={0.6}
+        style={{
+          stopColor: "#c21975",
+        }}
+      />
+      <stop
+        offset={1}
+        style={{
+          stopColor: "#7024c4",
+        }}
+      />
+    </linearGradient>
+    <path
+      d="M386.878 0H164.156C73.64 0 0 73.64 0 164.156v222.722c0 90.516 73.64 164.156 164.156 164.156h222.722c90.516 0 164.156-73.64 164.156-164.156V164.156C551.033 73.64 477.393 0 386.878 0zM495.6 386.878c0 60.045-48.677 108.722-108.722 108.722H164.156c-60.045 0-108.722-48.677-108.722-108.722V164.156c0-60.046 48.677-108.722 108.722-108.722h222.722c60.045 0 108.722 48.676 108.722 108.722v222.722z"
+      style={{
+        fill: "url(#a)",
+      }}
+    />
+    <linearGradient
+      id="b"
+      x1={275.517}
+      x2={275.517}
+      y1={4.571}
+      y2={549.72}
+      gradientTransform="matrix(1 0 0 -1 0 554)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop
+        offset={0}
+        style={{
+          stopColor: "#e09b3d",
+        }}
+      />
+      <stop
+        offset={0.3}
+        style={{
+          stopColor: "#c74c4d",
+        }}
+      />
+      <stop
+        offset={0.6}
+        style={{
+          stopColor: "#c21975",
+        }}
+      />
+      <stop
+        offset={1}
+        style={{
+          stopColor: "#7024c4",
+        }}
+      />
+    </linearGradient>
+    <path
+      d="M275.517 133C196.933 133 133 196.933 133 275.516s63.933 142.517 142.517 142.517S418.034 354.1 418.034 275.516 354.101 133 275.517 133zm0 229.6c-48.095 0-87.083-38.988-87.083-87.083s38.989-87.083 87.083-87.083c48.095 0 87.083 38.988 87.083 87.083 0 48.094-38.989 87.083-87.083 87.083z"
+      style={{
+        fill: "url(#b)",
+      }}
+    />
+    <linearGradient
+      id="c"
+      x1={418.306}
+      x2={418.306}
+      y1={4.571}
+      y2={549.72}
+      gradientTransform="matrix(1 0 0 -1 0 554)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop
+        offset={0}
+        style={{
+          stopColor: "#e09b3d",
+        }}
+      />
+      <stop
+        offset={0.3}
+        style={{
+          stopColor: "#c74c4d",
+        }}
+      />
+      <stop
+        offset={0.6}
+        style={{
+          stopColor: "#c21975",
+        }}
+      />
+      <stop
+        offset={1}
+        style={{
+          stopColor: "#7024c4",
+        }}
+      />
+    </linearGradient>
+    <circle
+      cx={418.306}
+      cy={134.072}
+      r={34.149}
+      style={{
+        fill: "url(#c)",
+      }}
+    />
+  </svg>
   );
 };
 

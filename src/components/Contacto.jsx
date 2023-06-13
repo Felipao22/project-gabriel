@@ -45,25 +45,25 @@
 //           <div>
 //               <label  className="block mb-2 text-sm font-medium text-white">Tú nombre</label>
 //               <input type="name"  
-//             value={values.name} className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Gabriel Furik" required />
+//             value={values.name} className="shadow-sm bg-gray-50 border border-gray-300 text-customBlack text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Gabriel Furik" required />
 //           {errors.name && touched.name && errors.name}
 //           </div>
 //           <div>
 //               <label  className="block mb-2 text-sm font-medium text-white">Tú email</label>
 //               <input type="email" 
-//             value={values.email} className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="email@site.com" required />
+//             value={values.email} className="shadow-sm bg-gray-50 border border-gray-300 text-customBlack text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="email@site.com" required />
 //           {errors.email && touched.email && errors.email}
 //           </div>
 //           <div>
 //               <label className="block mb-2 text-sm font-medium text-white">Tú número</label>
 //               <input type="text" onInput={validarNumero}  
-//             value={values.number} inputMode="numeric" pattern="[0-9]+" name="number" className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border appearance-none border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="3514553749" required />
+//             value={values.number} inputMode="numeric" pattern="[0-9]+" name="number" className="block p-3 w-full text-sm text-customBlack bg-gray-50 rounded-lg border appearance-none border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="3514553749" required />
 //           {errors.number && touched.number && errors.number}
 //           </div>
 //           <div className="sm:col-span-2">
 //               <label  className="block mb-2 text-sm font-medium text-white">Tú mensaje</label>
 //               <textarea rows="6"  
-//             value={values.message} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Deje su mensaje..."></textarea>
+//             value={values.message} className="block p-2.5 w-full text-sm text-customBlack bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Deje su mensaje..."></textarea>
 //           {errors.message && touched.message && errors.message}
 //           </div>
 //           <button type="submit" disabled={isSubmitting} className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-secondary sm:w-fit hover:bg-primary focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
@@ -131,7 +131,7 @@
 //                     name="name"
 //                     value={values.name}
 //                     onChange={handleChange}
-//                     className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+//                     className="shadow-sm bg-gray-50 border border-gray-300 text-customBlack text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
 //                     placeholder="Gabriel Furik"
 //                     required
 //                   />
@@ -144,7 +144,7 @@
 //                     name="email"
 //                     value={values.email}
 //                     onChange={handleChange}
-//                     className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+//                     className="shadow-sm bg-gray-50 border border-gray-300 text-customBlack text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
 //                     placeholder="email@site.com"
 //                     required
 //                   />
@@ -158,7 +158,7 @@
 //                     value={values.number}
 //                     onChange={handleChange}
 //                     onInput={validarNumero}
-//                     className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border appearance-none border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+//                     className="block p-3 w-full text-sm text-customBlack bg-gray-50 rounded-lg border appearance-none border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
 //                     placeholder="3514553749"
 //                     required
 //                   />
@@ -171,7 +171,7 @@
 //                     name="message"
 //                     value={values.message}
 //                     onChange={handleChange}
-//                     className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+//                     className="block p-2.5 w-full text-sm text-customBlack bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
 //                     placeholder="Deje su mensaje..."
 //                   ></textarea>
 //                   {errors.message && touched.message && errors.message}
@@ -243,7 +243,7 @@ export const Contacto = () => {
                   <Field
                     type="text"
                     name="name"
-                    className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                    className="shadow-sm bg-gray-50 border border-gray-300 text-customBlack text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                     placeholder="Gabriel Furik"
                     
                   />
@@ -254,7 +254,7 @@ export const Contacto = () => {
                   <Field
                     type="email"
                     name="email"
-                    className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                    className="shadow-sm bg-gray-50 border border-gray-300 text-customBlack text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                     placeholder="email@site.com"
                     
                   />
@@ -265,7 +265,7 @@ export const Contacto = () => {
                   <Field
                     type="number"
                     name="number"
-                    className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border appearance-none border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                    className="block p-3 w-full text-sm text-customBlack bg-gray-50 rounded-lg border appearance-none border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                     placeholder="3514553749"
                     
                     onInput={validarNumero}
@@ -278,7 +278,7 @@ export const Contacto = () => {
                     as="textarea"
                     rows="6"
                     name="message"
-                    className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                    className="block p-2.5 w-full text-sm text-customBlack bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                     placeholder="Deje su mensaje..."
                     
                   />
@@ -288,7 +288,7 @@ export const Contacto = () => {
                   type="submit"
                   disabled={isSubmitting || !isValid}
                   className={`py-3 px-5 text-sm font-medium text-center rounded-lg text-white ${
-                    isValid ? 'bg-secondary hover:bg-primary focus:ring-4 focus:outline-none cursor-pointer' : 'bg-gray-400'
+                    isValid ? 'bg-secondary hover:bg-primary focus:ring-4 focus:outline-none cursor-pointer' : 'bg-gray-400 cursor-not-allowed'
                   } `}
                 >
                   Enviar mensaje

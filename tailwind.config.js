@@ -20,6 +20,16 @@ export default {
                   '51': 'rgba(15, 15, 15, 1)',
                 },
               },
+              boxShadow: {
+                'custom': '10px 10px 0px 0px #4c0070',
+              },
+              colors: {
+                'customBlack': '#1F1F1F',
+              },
+            },
+            fontFamily:{
+              title:["Poppins"],
+              testimonial:["Paytone One"]
             },
     screens: {
       'sm': '640px',
