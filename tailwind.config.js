@@ -24,7 +24,7 @@ export default {
                 'custom': '10px 10px 0px 0px #4c0070',
               },
               colors: {
-                'customBlack': '#1F1F1F',
+                'customBlack': '#1F1F1F'
               },
             },
             fontFamily:{
