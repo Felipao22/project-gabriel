@@ -17,14 +17,14 @@ export const Section = () => {
 
           <small className="text-lg mt-4 md:mx-10 md:text-xl font-bold text-slate-100 text-center ">
             Soy Gabriel, y me da dentera el “porque sí”, “lo normal” y “lo
-            establecido”. Vamos juntas a:
+            establecido”. Vamos juntos a:
           </small>
         </header>
       </div>
-      <div className="flex flex-wrap mx-10 md:mx-auto justify-start md:justify-center -mt-10 xl:-mt-30">
+      <div className="flex flex-wrap mx-10 justify-start md:justify-center -mt-12 xl:-mt-30">
         <ul>
           <li>
-            <div className="flex items-center gap-3 mb-4 text-center">
+            <div className="flex items-center gap-3 mb-4 text-center whitespace-pre-line">
               <FireIcon  />
               <span className="text-slate-100">
                 Pulir tu personalidad y sacar lo mejor de ti misma.

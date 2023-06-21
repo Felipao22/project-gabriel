@@ -10,31 +10,37 @@ export const NavBar = () => {
       id: 1,
       name: "Inicio",
       link: "/",
+      className:""
     },
     {
       id: 2,
       name: "terapias",
       link: "/terapias",
+      className:""
     },
     {
       id: 3,
       name: "opiniones",
       link: "/opiniones",
+      className:""
     },
     {
       id: 4,
       name: "sobre mí",
       link: "/sobre-mi",
+      className:""
     },
     {
       id: 5,
       name: "contacto",
       link: "/contacto",
+      className:""
     },
     {
       id: 6,
       name: "reservar",
       link: "/reservar",
+      className:"rounded-full py-2 px-6 text-center bg-violet-800 hover:bg-violet-500"
     },
   ];
 
@@ -48,10 +54,10 @@ export const NavBar = () => {
       </div>
 
       <ul className="hidden md:flex">
-        {links.map(({ id, link, name }) => (
+        {links.map(({ id, link, name, className }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 duration-200"
+            className={`${className} px-4 py-4 cursor-pointer capitalize font-medium text-white hover:scale-105 duration-200 `}
           >
             <Link to={link}>{name}</Link>
           </li>

@@ -34,13 +34,13 @@ export const Footer = () => {
         <Link to="/contacto" className="link link-hover" >Contacto</Link>
         <Link to="/reservar" className="link link-hover" >Reservar</Link>
       </div>
-      <div className="text-white">
+      {/* <div className="text-white">
         <span className="footer-title">Company</span>
         <a className="link link-hover">About us</a>
         <a className="link link-hover">Contact</a>
         <a className="link link-hover">Jobs</a>
         <a className="link link-hover">Press kit</a>
-      </div>
+      </div> */}
       <div className="text-white">
     <span className="footer-title">Redes Sociales</span> 
     <div className="grid grid-flow-col gap-4 cursor-pointer">
