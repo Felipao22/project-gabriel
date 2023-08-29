@@ -23,7 +23,7 @@ export const SobreMi = () => {
     <section className="min-h-screen w-full bg-primary px-2 pb-40 pt-12 md:py-10">
     <div className="max-w-screen-xl md:ml-32 py-20 flex flex-col h-full px-2 xl:flex-row">
       <div className="flex flex-col justify-center h-full px-4">
-           <h4 className="text-slate-100 md:text-xl font-bold leading-6 pb-10 text-center">Mi nombre es Gabriel Furik</h4>
+           <h4 className="text-slate-100 md:text-xl font-bold leading-6 pb-10 text-center">¡Hola, soy Gabriel Furik!</h4>
          <div className="max-w-screen-xl py-10 px-6 md:mx-auto mx-4 md:px-4 border-solid border-2 border-y-cyan-50 text-center">
            <span className="text-slate-100 md:text-xl font-bold leading-6">
              Soy especialista en Terapia de Biodescodificación

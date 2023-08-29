@@ -1,6 +1,10 @@
 import { useState } from 'react';
-import prueba from '../assets/prueba.jpeg';
-import wp from '../assets/wp.jpeg'
+import testimonio1 from '../assets/testimonio-1.jpeg';
+import testimonio2 from '../assets/testimonio-2.jpeg';
+import testimonio3 from '../assets/testimonio-3.jpeg';
+import testimonio4 from '../assets/testimonio-4.jpeg';
+import testimonio5 from '../assets/testimonio-5.jpeg';
+import testimonio6 from '../assets/testimonio-6.jpeg';
 export const Testimonios = () => {
 
   const[currentSlide, SetCurrentSlide] = useState(0);
@@ -16,19 +20,29 @@ export const Testimonios = () => {
   const photos = [
     {
       id:"slide1",
-      photo:prueba
+      photo:testimonio1
     },
     {
       id:"slide2",
-      photo:wp
+      photo:testimonio2
     },
     {
       id:"slide3",
-      photo:prueba
+      photo:testimonio3
     },
     {
       id:"slide4",
-      photo:wp
+      photo:testimonio4
+    }
+    ,
+    {
+      id:"slide5",
+      photo:testimonio5
+    }
+    ,
+    {
+      id:"slide6",
+      photo:testimonio6
     }
   ]
 

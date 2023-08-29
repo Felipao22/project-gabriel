@@ -213,17 +213,18 @@ export const LogoIcon = () => {
   );
 };
 
-export const FireIcon = () => {
+export const FireIcon = ( { size, className } ) => {
   return (
     <svg
-      width="60"
-      height="60"
-      fill="#ffff"
-      viewBox="-102.4 -102.4 1228.80 1228.80"
-      xmlns="http://www.w3.org/2000/svg"
-      stroke="#ffff"
-      transform="rotate(0)"
-    >
+    width={size}
+    height={size}
+    fill="#ffff"
+    viewBox="-102.4 -102.4 1228.80 1228.80"
+    xmlns="http://www.w3.org/2000/svg"
+    stroke="#ffff"
+    transform="rotate(0)"
+    className={className}
+  >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
         id="SVGRepo_tracerCarrier"
@@ -237,15 +238,16 @@ export const FireIcon = () => {
   );
 };
 
-export const CircleIcon = () => {
+export const CircleIcon = ( { size, className } ) => {
   return (
     <svg
-      width="60"
-      height="60"
+    width={size}
+    height={size}
       fill="#ffff"
       viewBox="0 0 512 512"
       xmlns="http://www.w3.org/2000/svg"
       stroke="#ffff"
+      className={className}
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
@@ -260,16 +262,17 @@ export const CircleIcon = () => {
   );
 };
 
-export const HoldinHeartIcon = () => {
+export const HoldinHeartIcon = ( { size, className } ) => {
   return (
     <svg
-      width="60"
-      height="60"
+    width={size}
+    height={size}
       fill="#ffff"
       viewBox="0 0 32 32"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       stroke="#ffff"
+      className={className}
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
