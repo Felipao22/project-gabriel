@@ -1,6 +1,7 @@
 import {FacebookLogo, InstagramLogo, LogoIcon, TwitterLogo, YoutubeLogo} from "./Icons";
 import { Link, useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import logo from "../assets/logo.png"
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -18,7 +19,10 @@ export const Footer = () => {
     <footer className="footer p-10 bg-dark text-base-content">
       <ScrollToTop />
       <div>
-        <LogoIcon />
+        <a href="/">
+        <img src={logo} alt="Logo Gabriel" className="h-full w-16 md:ml-4 lg:ml-4 xl:ml-4"/>
+
+        </a>
         <p className="text-white">
           Gabriel Furik
           <br />

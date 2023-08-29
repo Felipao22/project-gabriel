@@ -62,11 +62,11 @@ export const Section = () => {
             </div>
           </li>
         </ul> */}
-        <div className="flex flex-wrap mx-6 md:max-w-4xl justify-center">
+        <div className="flex flex-wrap md:max-w-4xl justify-center">
         <ul className="w-full md:w-auto">
-          <li className="w-full md:w-auto flex items-center gap-2 mb-4 text-justify whitespace-pre-line">
-            <FireIcon size={100} className="w-48 " />
-            <span className="text-slate-100 mx-2 text-justify  font-semibold ">
+          <li className="w-full md:w-auto flex items-center gap-2 mb-4 text-justify">
+            <FireIcon size={100} className="w-48" />
+            <span className="text-slate-100 mx-2 text-justify font-semibold ">
               Exploración Profunda: Te guiaré en un viaje hacia el interior de
               ti mismo, ayudándote a descifrar los mensajes ocultos en tu
               cuerpo y mente. Juntos, descubriremos las raíces de tus desafíos
@@ -75,7 +75,7 @@ export const Section = () => {
           </li>
           <li className="w-full md:w-auto flex items-center gap-2 mb-4">
             <CircleIcon  size={100} className="w-48 "/>
-            <span className="text-slate-100  text-justify  font-semibold mx-2 md:ml-4 xl:ml-[1.5rem]">
+            <span className="text-slate-100  text-justify font-semibold mx-2 md:ml-4 xl:ml-[1.5rem]">
               Transformación Auténtica: A través de la Biodescodificación, te
               apoyaré en la transformación de tus patrones limitantes y cargas
               emocionales. Liberarte de estos bloqueos te permitirá
@@ -84,8 +84,8 @@ export const Section = () => {
             </span>
           </li>
           <li className="w-full md:w-auto flex items-center md:gap-3 gap-3 mb-4">
-            <HoldinHeartIcon  size={100} className="w-48 "/>
-            <span className="text-slate-100  text-justify  font-semibold mx-2 md:ml-4 xl:ml-[1.5rem]">
+            <HoldinHeartIcon  size={100} className="w-48"/>
+            <span className="text-slate-100  text-justify font-semibold mx-2 md:ml-4 xl:ml-[1.5rem]">
               Empoderamiento Duradero: Mi enfoque va más allá de una simple
               sesión; te proporcionaré las herramientas y la comprensión
               necesarias para que sigas sanando y creciendo por ti mismo. Al
@@ -94,7 +94,7 @@ export const Section = () => {
             </span>
           </li>
         </ul>
-        <span className="text-lg mt-20  md:mx-20 md:text-xl font-bold text-slate-100 text-center ">
+        <span className="text-lg mt-20 md:mx-20 md:text-xl px-2 font-bold text-slate-100 text-center ">
           Juntos, exploraremos las profundidades de tu ser y desencadenaremos un
           potencial de transformación que te llevará hacia una vida más plena y
           auténtica.
