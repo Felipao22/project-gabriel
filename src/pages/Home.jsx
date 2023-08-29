@@ -15,10 +15,10 @@ export const Home = () => {
         <div className="max-w-screen-xl mx-auto flex flex-col items-center h-full px-2 md:flex-row py-6">
           <header className="flex flex-col justify-center h-full px-4">
             <h6 className="text-2xl mb-2 md:text-5xl md:mr-40 font-bold text-slate-100">
-            Emprende un viaje de autoconocimiento y sanación profunda a través de la Biodescodificación:
+            Emprende un viaje de autoconocimiento y sanación profunda a través de la Biodescodificación
             </h6>
             <span className="text-3xl md:text-6xl font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
-            Transforma tu vida desde adentro hacia afuera.
+            Transforma tu vida desde adentro hacia afuera
             </span>
 
             <div className="py-8">

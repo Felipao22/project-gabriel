@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "../assets/logo.png"
 
 export const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -46,9 +47,9 @@ export const NavBar = () => {
 
   return (
     <div className="flex justify-between items-center w-full h-20  px-4 text-white bg-dark static shadow-2xl">
-      <div>
+      <div className="flex items-center ">
         <a className="text-5xl font-signature ml-2" href="/">
-          GF
+          <img className="h-full w-16 md:ml-4 lg:ml-4 xl:ml-4" src={logo} alt="Logo Gabriel" />
         </a>
         {/* <h3 className="text-5xl font-signature ml-2">Gabriel Furik</h3> */}
       </div>
