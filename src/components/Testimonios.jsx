@@ -47,7 +47,7 @@ export const Testimonios = () => {
   ]
 
     return(
-<section className='min-h-screen w-full bg-neutral px-2 pb-40 pt-32'>
+<section className='min-h-screen w-full bg-neutral px-2 pb-40 pt-32 font-title'>
 <h1 className="text-3xl mb-20 md:mx-10 md:text-4xl font-bold text-customBlack text-center">
            Casos de éxitos
          </h1>

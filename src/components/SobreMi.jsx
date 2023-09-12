@@ -1,4 +1,4 @@
-import example from "../assets/example-removebg-preview.png";
+import Profile2 from "../assets/Profile-2-removebg-preview.png";
 export const SobreMi = () => {
   return (
     // <main className="min-h-screen w-full bg-primary px-10 pb-40 pt-20">
@@ -43,7 +43,7 @@ export const SobreMi = () => {
          </div>
       <div>
         <img
-          src={example}
+          src={Profile2}
           alt="My profile"
           className=" mx-auto h-auto w-4/6 md:w-1/3 xl:w-5/6 pt-2 md:-mt-16 mb-20 2xl:ml-36 object-cover"
         />

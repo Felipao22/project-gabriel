@@ -46,7 +46,7 @@ export const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20  px-4 text-white bg-dark static shadow-2xl">
+    <div className="flex justify-between items-center w-full h-20 font-title px-4 text-white bg-dark static shadow-2xl">
       <div className="flex items-center ">
         <a className="text-5xl font-signature ml-2" href="/">
           <img className="h-full w-16 md:ml-4 lg:ml-4 xl:ml-4" src={logo} alt="Logo Gabriel" />

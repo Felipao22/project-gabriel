@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
-import example from "../assets/example.jpg";
 import estres from "../assets/estres.jpg"
 import bienestar from "../assets/bienestar.jpg"
 import claridad from "../assets/claridad.jpg"
 
 export const SectionTwo = () => {
   return (
-    <section className="min-h-screen w-full bg-dark px-2 pb-40 pt-32">
+    <section className="min-h-screen w-full bg-dark px-2 pb-40 pt-32 font-title">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center h-full px-2">
         <div className="max-w-screen-md py-10 px-6 md:mx-auto mx-4 md:p-20 border-solid border-2 border-y-cyan-50 rounded-md shadow-md shadow-white text-center">
           <h6 className="text-slate-100 md:text-xl font-bold leading-6">
@@ -61,7 +60,7 @@ export const SectionTwo = () => {
       <div className="max-w-screen-xl md:ml-32 py-20 flex flex-col items-center h-full px-2 md:flex-row">
         <div>
           <img
-            src={example}
+            src={estres}
             alt="My profile"
             className="rounded-2xl mx-auto h-auto w-1/2 md:w-2/3 md:my-20 mb-20 md:mr-60 object-cover"
           />
@@ -102,7 +101,7 @@ export const SectionTwo = () => {
       <div className="max-w-screen-xl md:ml-32 py-20 flex flex-col items-center h-full px-2 md:flex-row">
         <div>
           <img
-            src={example}
+            src={estres}
             alt="My profile"
             className="rounded-2xl mx-auto h-auto w-1/2 md:w-2/3 md:my-20 mb-20 md:mr-60 object-cover"
           />
@@ -144,7 +143,7 @@ export const SectionTwo = () => {
       <div className="max-w-screen-xl md:ml-32 py-20 flex flex-col items-center h-full px-2 md:flex-row">
         <div>
           <img
-            src={example}
+            src={estres}
             alt="My profile"
             className="rounded-2xl mx-auto h-auto w-1/2 md:w-2/3 md:my-20 mb-20 md:mr-60 object-cover"
           />

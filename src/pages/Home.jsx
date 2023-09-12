@@ -1,4 +1,4 @@
-import example from "../assets/example.jpg";
+import profile1 from "../assets/Profile-1.jpg";
 import { Link } from "react-scroll";
 import { Terapeuta } from "../components/Terapeuta";
 import { Section } from "../components/Section";
@@ -10,14 +10,14 @@ export const Home = () => {
     <>
       <main
         name="home"
-        className="min-h-screen w-full bg-gradient-to-tr from-custom-gradient-35 via-custom-gradient-51 to-custom-gradient-0"
+        className="min-h-screen w-full font-title bg-gradient-to-tr from-custom-gradient-35 via-custom-gradient-51 to-custom-gradient-0"
       >
         <div className="max-w-screen-xl mx-auto flex flex-col items-center h-full px-2 md:flex-row py-6">
           <header className="flex flex-col justify-center h-full px-4">
-            <h6 className="text-2xl mb-2 md:text-5xl md:mr-40 font-bold text-slate-100">
+            <h6 className="text-2xl mb-2 md:text-4xl md:mr-40 font-semibold text-slate-100">
             Emprende un viaje de autoconocimiento y sanación profunda a través de la Biodescodificación
             </h6>
-            <span className="text-3xl md:text-6xl font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
+            <span className="text-3xl md:text-5xl font-bold from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent">
             Transforma tu vida desde adentro hacia afuera
             </span>
 
@@ -34,7 +34,7 @@ export const Home = () => {
           </header>
           <div>
             <img
-              src={example}
+              src={profile1}
               alt="My profile"
               className="rounded-2xl mx-auto h-auto w-1/2 md:w-4/6 md:my-auto md:pt-6 mb-20 md:mx-auto xl:ml-48 object-cover"
             />

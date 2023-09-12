@@ -27,10 +27,7 @@ export default {
                 'customBlack': '#1F1F1F'
               },
             },
-            fontFamily:{
-              title:["Poppins"],
-              testimonial:["Paytone One"]
-            },
+          
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
@@ -46,7 +43,12 @@ export default {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
-    }
+    },
+    fontFamily:{
+      card: ["Libre "],
+      title:["Poppins"],
+              testimonial:["Paytone One"]
+    },
   },
   plugins: [
     require('daisyui'),
