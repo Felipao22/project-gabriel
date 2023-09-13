@@ -1,4 +1,4 @@
-import profile1 from "../assets/Profile-1.jpg";
+import profile1 from "../assets/Profile-1.webp";
 import { Link } from "react-scroll";
 import { Terapeuta } from "../components/Terapeuta";
 import { Section } from "../components/Section";

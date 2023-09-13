@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
-import estres from "../assets/estres.jpg"
-import bienestar from "../assets/bienestar.jpg"
-import claridad from "../assets/claridad.jpg"
+import estres from "../assets/estres.webp"
+import bienestar from "../assets/bienestar.webp"
+import claridad from "../assets/claridad.webp"
+import transformación from "../assets/transformación.webp"
+import descubrimiento from "../assets/descubrimiento.webp"
+import alineacion from "../assets/alineacion.webp"
 
 export const SectionTwo = () => {
   return (
@@ -133,19 +136,19 @@ export const SectionTwo = () => {
         <div>
           <img
             src={
-              "https://www.ngenespanol.com/wp-content/uploads/2023/03/que-es-una-galaxia-y-como-se-forman-estas-colonias-espaciales.jpg"
+             alineacion
             }
             alt="My profile"
-            className="rounded-2xl mx-auto h-auto w-auto md:w-2/3 md:my-20 mt-20 mb-20  object-cover"
+            className="rounded-2xl mx-auto h-auto w-2/3 md:w-auto md:my-20 mt-20 mb-20  object-cover"
           />
         </div>
       </div>
       <div className="max-w-screen-xl md:ml-32 py-20 flex flex-col items-center h-full px-2 md:flex-row">
         <div>
           <img
-            src={estres}
+            src={descubrimiento}
             alt="My profile"
-            className="rounded-2xl mx-auto h-auto w-1/2 md:w-2/3 md:my-20 mb-20 md:mr-60 object-cover"
+            className="rounded-2xl mx-auto h-auto w-2/3 md:w-4/5 md:my-20 mb-20 md:mr-60 object-cover"
           />
         </div>
         <header className="flex flex-col justify-center h-full px-4">
@@ -215,10 +218,10 @@ export const SectionTwo = () => {
         <div>
           <img
             src={
-              "https://www.ngenespanol.com/wp-content/uploads/2023/03/que-es-una-galaxia-y-como-se-forman-estas-colonias-espaciales.jpg"
+              transformación
             }
             alt="My profile"
-            className="rounded-2xl mx-auto h-auto w-auto md:w-2/3 md:my-20 mt-20 mb-20  object-cover"
+            className="rounded-2xl mx-auto h-auto w-2/3 md:w-4/5 md:my-20 mt-20 mb-20  object-cover"
           />
         </div>
       </div>

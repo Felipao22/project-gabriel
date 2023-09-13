@@ -1,4 +1,4 @@
-import Profile2 from "../assets/Profile-2-removebg-preview.png";
+import Profile2 from "../assets/Profile-2-removebg.webp";
 export const SobreMi = () => {
   return (
     // <main className="min-h-screen w-full bg-primary px-10 pb-40 pt-20">

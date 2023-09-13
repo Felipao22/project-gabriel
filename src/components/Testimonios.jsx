@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import testimonio1 from '../assets/testimonio-1.jpeg';
-import testimonio2 from '../assets/testimonio-2.jpeg';
-import testimonio3 from '../assets/testimonio-3.jpeg';
-import testimonio4 from '../assets/testimonio-4.jpeg';
-import testimonio5 from '../assets/testimonio-5.jpeg';
-import testimonio6 from '../assets/testimonio-6.jpeg';
+import testimonio1 from '../assets/testimonio-1.webp';
+import testimonio2 from '../assets/testimonio-2.webp';
+import testimonio3 from '../assets/testimonio-3.webp';
+import testimonio4 from '../assets/testimonio-4.webp';
+import testimonio5 from '../assets/testimonio-5.webp';
+import testimonio6 from '../assets/testimonio-6.webp';
 export const Testimonios = () => {
 
   const[currentSlide, SetCurrentSlide] = useState(0);

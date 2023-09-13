@@ -49,7 +49,7 @@ export const NavBar = () => {
     <div className="flex justify-between items-center w-full h-20 font-title px-4 text-white bg-dark static shadow-2xl">
       <div className="flex items-center ">
         <a className="text-5xl font-signature ml-2" href="/">
-          <img className="h-full w-16 md:ml-4 lg:ml-4 xl:ml-4" src={logo} alt="Logo Gabriel" />
+          <img className="h-full w-full" src={logo} alt="Logo Gabriel" />
         </a>
         {/* <h3 className="text-5xl font-signature ml-2">Gabriel Furik</h3> */}
       </div>
@@ -74,10 +74,10 @@ export const NavBar = () => {
 
       {nav && (
         <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-dark text-white">
-          {links.map(({ id, link, name }) => (
+          {links.map(({ id, link, name,className }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+              className={`${className}px-4 cursor-pointer capitalize py-6 text-4xl`}
             >
               <Link
                 onClick={() => setNav(!nav)}

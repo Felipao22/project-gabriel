@@ -2,7 +2,7 @@ export const Terapeuta = () => {
   return (
     <main name="descubre" className="h-screen w-full bg-neutral font-title">
       <div className="max-w-screen-lg mx-auto flex justify-center items-center h-full px-auto md:flex-row">
-        <header className="flex flex-col justify-center h-full pt-2 my-80">
+        <header className="flex flex-col justify-center h-full pt-2 my-96">
           <h3 className="text-3xl my-6 mx-10 md:text-4xl font-bold text-customBlack text-center">
             Imagina liberarte de cargas emocionales, transformar patrones
             limitantes y abrazar una vida plena a través de la
