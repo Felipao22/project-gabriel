@@ -5,7 +5,7 @@ import { NavBar } from "./components/NavBar";
 import { Footer } from "./components/Footer";
 import { Terapias } from "./components/Terapias";
 import { Opiniones } from "./components/Opiniones";
-import { SobreMi } from "./components/SobreMi";
+import { SobreMi } from "./pages/SobreMi";
 import { Contacto } from "./components/Contacto";
 import { Reservar } from "./components/Reservar";
 import { ScrollToTop } from "./components/ScrollToTop";
